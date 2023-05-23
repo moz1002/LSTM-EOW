@@ -1,0 +1,179 @@
+2022-11-10 05:39:13,013 - INFO - 
+Config:
+'add_train': False
+'batch_size': 64
+'continue_flag': ''
+'debug_mode': False
+'debug_num': 500
+'do_continue_train': False
+'do_figure_save': True
+'do_log_print_to_screen': True
+'do_log_save_to_file': True
+'do_predict': True
+'do_train': True
+'do_train_visualized': False
+'dropout_rate': 0.2
+'epoch': 500
+'feature_columns': [3, 4, 5, 6, 7, 8, 9, 10, 11]
+'figure_save_path': './DATA/DAY/result/stockBySectorId/90/11_10_05_39_LSTM=3_time_step=5/figure/'
+'file_save_path': './DATA/DAY/result/stockBySectorId/90/11_10_05_39_LSTM=3_time_step=5'
+'hidden_size': 128
+'input_size': 8
+'label_columns': [11]
+'label_in_feature_index': [8]
+'learning_rate': 0.001
+'log_save_path': './DATA/DAY/result/stockBySectorId/90/11_10_05_39_LSTM=3_time_step=5/log/'
+'logger_name': '2022_11_10_05_39_13_LSTM=3_time_step=5'
+'lstm_layers': 3
+'model_name': 'model_pytorch.pth'
+'model_postfix': {'pytorch': '.pth'
+'keras': '.h5'
+'tensorflow': '.ckpt'}
+'model_save_path': './DATA/DAY/result/stockBySectorId/90/11_10_05_39_LSTM=3_time_step=5/model/'
+'output_size': 1
+'patience': 15
+'predict_day': 1
+'random_seed': 42
+'record_save_path': './DATA/DAY/result/stockBySectorId/90/11_10_05_39_LSTM=3_time_step=5/record/'
+'shuffle_train_data': True
+'time_step': 5
+'train_data_path': './DATA/DAY/origin/中证会2016标准不同板块选股/90.csv'
+'train_data_rate': 0.95
+'use_cuda': False
+'used_frame': 'pytorch'
+'valid_data_rate': 0.15
+2022-11-10 05:39:13,030 - INFO - Epoch 0/500
+2022-11-10 05:39:13,631 - INFO - The train loss is 0.436364. The valid loss is 0.110319.
+2022-11-10 05:39:13,633 - INFO - Epoch 1/500
+2022-11-10 05:39:14,212 - INFO - The train loss is 0.051524. The valid loss is 0.028253.
+2022-11-10 05:39:14,215 - INFO - Epoch 2/500
+2022-11-10 05:39:14,778 - INFO - The train loss is 0.027975. The valid loss is 0.022827.
+2022-11-10 05:39:14,781 - INFO - Epoch 3/500
+2022-11-10 05:39:15,358 - INFO - The train loss is 0.025654. The valid loss is 0.021149.
+2022-11-10 05:39:15,361 - INFO - Epoch 4/500
+2022-11-10 05:39:15,926 - INFO - The train loss is 0.024082. The valid loss is 0.019902.
+2022-11-10 05:39:15,928 - INFO - Epoch 5/500
+2022-11-10 05:39:16,580 - INFO - The train loss is 0.023254. The valid loss is 0.019594.
+2022-11-10 05:39:16,582 - INFO - Epoch 6/500
+2022-11-10 05:39:17,146 - INFO - The train loss is 0.022059. The valid loss is 0.018939.
+2022-11-10 05:39:17,148 - INFO - Epoch 7/500
+2022-11-10 05:39:17,725 - INFO - The train loss is 0.022014. The valid loss is 0.019158.
+2022-11-10 05:39:17,726 - INFO - Epoch 8/500
+2022-11-10 05:39:18,290 - INFO - The train loss is 0.021366. The valid loss is 0.018050.
+2022-11-10 05:39:18,292 - INFO - Epoch 9/500
+2022-11-10 05:39:18,873 - INFO - The train loss is 0.021134. The valid loss is 0.018019.
+2022-11-10 05:39:18,876 - INFO - Epoch 10/500
+2022-11-10 05:39:19,497 - INFO - The train loss is 0.020564. The valid loss is 0.017711.
+2022-11-10 05:39:19,500 - INFO - Epoch 11/500
+2022-11-10 05:39:20,078 - INFO - The train loss is 0.020665. The valid loss is 0.017843.
+2022-11-10 05:39:20,079 - INFO - Epoch 12/500
+2022-11-10 05:39:20,642 - INFO - The train loss is 0.021002. The valid loss is 0.017911.
+2022-11-10 05:39:20,642 - INFO - Epoch 13/500
+2022-11-10 05:39:21,225 - INFO - The train loss is 0.020319. The valid loss is 0.017896.
+2022-11-10 05:39:21,225 - INFO - Epoch 14/500
+2022-11-10 05:39:21,788 - INFO - The train loss is 0.020211. The valid loss is 0.018332.
+2022-11-10 05:39:21,788 - INFO - Epoch 15/500
+2022-11-10 05:39:22,385 - INFO - The train loss is 0.020844. The valid loss is 0.018081.
+2022-11-10 05:39:22,386 - INFO - Epoch 16/500
+2022-11-10 05:39:22,995 - INFO - The train loss is 0.020009. The valid loss is 0.017828.
+2022-11-10 05:39:22,996 - INFO - Epoch 17/500
+2022-11-10 05:39:23,572 - INFO - The train loss is 0.019990. The valid loss is 0.017502.
+2022-11-10 05:39:23,574 - INFO - Epoch 18/500
+2022-11-10 05:39:24,141 - INFO - The train loss is 0.020395. The valid loss is 0.018083.
+2022-11-10 05:39:24,141 - INFO - Epoch 19/500
+2022-11-10 05:39:24,717 - INFO - The train loss is 0.019826. The valid loss is 0.017665.
+2022-11-10 05:39:24,717 - INFO - Epoch 20/500
+2022-11-10 05:39:25,295 - INFO - The train loss is 0.019811. The valid loss is 0.017587.
+2022-11-10 05:39:25,296 - INFO - Epoch 21/500
+2022-11-10 05:39:25,908 - INFO - The train loss is 0.020364. The valid loss is 0.018035.
+2022-11-10 05:39:25,908 - INFO - Epoch 22/500
+2022-11-10 05:39:26,482 - INFO - The train loss is 0.019894. The valid loss is 0.017243.
+2022-11-10 05:39:26,485 - INFO - Epoch 23/500
+2022-11-10 05:39:27,051 - INFO - The train loss is 0.019817. The valid loss is 0.018061.
+2022-11-10 05:39:27,051 - INFO - Epoch 24/500
+2022-11-10 05:39:27,628 - INFO - The train loss is 0.019786. The valid loss is 0.017765.
+2022-11-10 05:39:27,629 - INFO - Epoch 25/500
+2022-11-10 05:39:28,213 - INFO - The train loss is 0.019736. The valid loss is 0.017413.
+2022-11-10 05:39:28,214 - INFO - Epoch 26/500
+2022-11-10 05:39:28,840 - INFO - The train loss is 0.019729. The valid loss is 0.017432.
+2022-11-10 05:39:28,840 - INFO - Epoch 27/500
+2022-11-10 05:39:29,403 - INFO - The train loss is 0.019549. The valid loss is 0.017414.
+2022-11-10 05:39:29,404 - INFO - Epoch 28/500
+2022-11-10 05:39:29,981 - INFO - The train loss is 0.019542. The valid loss is 0.017667.
+2022-11-10 05:39:29,982 - INFO - Epoch 29/500
+2022-11-10 05:39:30,545 - INFO - The train loss is 0.019249. The valid loss is 0.017213.
+2022-11-10 05:39:30,547 - INFO - Epoch 30/500
+2022-11-10 05:39:31,137 - INFO - The train loss is 0.019113. The valid loss is 0.017235.
+2022-11-10 05:39:31,138 - INFO - Epoch 31/500
+2022-11-10 05:39:31,742 - INFO - The train loss is 0.019397. The valid loss is 0.017208.
+2022-11-10 05:39:31,744 - INFO - Epoch 32/500
+2022-11-10 05:39:32,323 - INFO - The train loss is 0.019459. The valid loss is 0.017165.
+2022-11-10 05:39:32,325 - INFO - Epoch 33/500
+2022-11-10 05:39:32,888 - INFO - The train loss is 0.019205. The valid loss is 0.017449.
+2022-11-10 05:39:32,888 - INFO - Epoch 34/500
+2022-11-10 05:39:33,466 - INFO - The train loss is 0.019198. The valid loss is 0.017384.
+2022-11-10 05:39:33,467 - INFO - Epoch 35/500
+2022-11-10 05:39:34,029 - INFO - The train loss is 0.018699. The valid loss is 0.017616.
+2022-11-10 05:39:34,029 - INFO - Epoch 36/500
+2022-11-10 05:39:34,640 - INFO - The train loss is 0.018638. The valid loss is 0.017241.
+2022-11-10 05:39:34,640 - INFO - Epoch 37/500
+2022-11-10 05:39:35,206 - INFO - The train loss is 0.018819. The valid loss is 0.017451.
+2022-11-10 05:39:35,206 - INFO - Epoch 38/500
+2022-11-10 05:39:35,786 - INFO - The train loss is 0.018933. The valid loss is 0.017378.
+2022-11-10 05:39:35,786 - INFO - Epoch 39/500
+2022-11-10 05:39:36,351 - INFO - The train loss is 0.018486. The valid loss is 0.017313.
+2022-11-10 05:39:36,351 - INFO - Epoch 40/500
+2022-11-10 05:39:36,952 - INFO - The train loss is 0.019046. The valid loss is 0.017045.
+2022-11-10 05:39:36,954 - INFO - Epoch 41/500
+2022-11-10 05:39:37,529 - INFO - The train loss is 0.018566. The valid loss is 0.017793.
+2022-11-10 05:39:37,530 - INFO - Epoch 42/500
+2022-11-10 05:39:38,152 - INFO - The train loss is 0.018444. The valid loss is 0.018068.
+2022-11-10 05:39:38,153 - INFO - Epoch 43/500
+2022-11-10 05:39:38,718 - INFO - The train loss is 0.018219. The valid loss is 0.017944.
+2022-11-10 05:39:38,718 - INFO - Epoch 44/500
+2022-11-10 05:39:39,295 - INFO - The train loss is 0.018057. The valid loss is 0.017349.
+2022-11-10 05:39:39,295 - INFO - Epoch 45/500
+2022-11-10 05:39:39,858 - INFO - The train loss is 0.018347. The valid loss is 0.017871.
+2022-11-10 05:39:39,858 - INFO - Epoch 46/500
+2022-11-10 05:39:40,444 - INFO - The train loss is 0.018689. The valid loss is 0.017110.
+2022-11-10 05:39:40,444 - INFO - Epoch 47/500
+2022-11-10 05:39:41,032 - INFO - The train loss is 0.017949. The valid loss is 0.017302.
+2022-11-10 05:39:41,032 - INFO - Epoch 48/500
+2022-11-10 05:39:41,611 - INFO - The train loss is 0.018029. The valid loss is 0.017139.
+2022-11-10 05:39:41,611 - INFO - Epoch 49/500
+2022-11-10 05:39:42,176 - INFO - The train loss is 0.018305. The valid loss is 0.016764.
+2022-11-10 05:39:42,179 - INFO - Epoch 50/500
+2022-11-10 05:39:42,758 - INFO - The train loss is 0.017929. The valid loss is 0.016685.
+2022-11-10 05:39:42,761 - INFO - Epoch 51/500
+2022-11-10 05:39:43,341 - INFO - The train loss is 0.017653. The valid loss is 0.017660.
+2022-11-10 05:39:43,341 - INFO - Epoch 52/500
+2022-11-10 05:39:43,959 - INFO - The train loss is 0.017698. The valid loss is 0.017840.
+2022-11-10 05:39:43,959 - INFO - Epoch 53/500
+2022-11-10 05:39:44,522 - INFO - The train loss is 0.018178. The valid loss is 0.016798.
+2022-11-10 05:39:44,522 - INFO - Epoch 54/500
+2022-11-10 05:39:45,099 - INFO - The train loss is 0.017577. The valid loss is 0.017126.
+2022-11-10 05:39:45,099 - INFO - Epoch 55/500
+2022-11-10 05:39:45,661 - INFO - The train loss is 0.018022. The valid loss is 0.017172.
+2022-11-10 05:39:45,662 - INFO - Epoch 56/500
+2022-11-10 05:39:46,251 - INFO - The train loss is 0.017670. The valid loss is 0.017127.
+2022-11-10 05:39:46,251 - INFO - Epoch 57/500
+2022-11-10 05:39:46,840 - INFO - The train loss is 0.017279. The valid loss is 0.017896.
+2022-11-10 05:39:46,840 - INFO - Epoch 58/500
+2022-11-10 05:39:47,421 - INFO - The train loss is 0.017841. The valid loss is 0.017374.
+2022-11-10 05:39:47,421 - INFO - Epoch 59/500
+2022-11-10 05:39:47,999 - INFO - The train loss is 0.017355. The valid loss is 0.017601.
+2022-11-10 05:39:48,000 - INFO - Epoch 60/500
+2022-11-10 05:39:48,563 - INFO - The train loss is 0.017127. The valid loss is 0.017837.
+2022-11-10 05:39:48,563 - INFO - Epoch 61/500
+2022-11-10 05:39:49,170 - INFO - The train loss is 0.017370. The valid loss is 0.017060.
+2022-11-10 05:39:49,170 - INFO - Epoch 62/500
+2022-11-10 05:39:49,754 - INFO - The train loss is 0.017519. The valid loss is 0.018452.
+2022-11-10 05:39:49,754 - INFO - Epoch 63/500
+2022-11-10 05:39:50,335 - INFO - The train loss is 0.017546. The valid loss is 0.017689.
+2022-11-10 05:39:50,335 - INFO - Epoch 64/500
+2022-11-10 05:39:50,901 - INFO - The train loss is 0.017291. The valid loss is 0.017289.
+2022-11-10 05:39:50,901 - INFO - Epoch 65/500
+2022-11-10 05:39:51,480 - INFO - The train loss is 0.017359. The valid loss is 0.016941.
+2022-11-10 05:39:51,480 - INFO -  The training stops early in epoch 65
+2022-11-10 05:39:53,344 - INFO - The prediction is finish.
+2022-11-10 05:39:53,352 - INFO - The mean squared error of stock ['target'] is [0.00865604]
